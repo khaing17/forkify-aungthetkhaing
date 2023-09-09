@@ -103,6 +103,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const testing = (){
+  console.log('Welcome from forkify!!');
+}
+
 const init = () => {
   bookmarkView.addHandler(controlBookmarks);
   recipeView.addHandlerRender(controlRecipe);
